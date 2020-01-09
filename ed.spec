@@ -1,7 +1,7 @@
 Summary: The GNU line editor
 Name: ed
 Version: 1.9
-Release: 2%{?dist}
+Release: 4%{?dist}
 License: GPLv3+, GFDL
 Group:  Applications/Text
 Source: ftp://ftp.gnu.org/gnu/ed/%{name}-%{version}.tar.gz
@@ -54,6 +54,12 @@ fi
 %{_mandir}/*/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.9-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.9-3
+- Mass rebuild 2013-12-27
+
 * Wed Jul 31 2013 Karsten Hopp <karsten@redhat.com> 1.9-2
 - add GFDL to licenses
 
